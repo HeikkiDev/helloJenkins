@@ -25,4 +25,8 @@ public class DemoClassForCoverageTest {
         assertEquals(8, cut.multiplyInteger(2, 4));
     }
 
+    @Test
+    public void divideInteger() throws Exception {
+        assertEquals(3, cut.divideInteger(9,3));
+    }
 }

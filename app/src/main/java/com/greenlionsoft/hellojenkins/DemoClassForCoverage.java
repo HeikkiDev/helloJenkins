@@ -14,4 +14,5 @@ public class DemoClassForCoverage {
         return a * b;
     }
 
+    public int divideInteger(int a, int b) {return  a / b;}
 }
